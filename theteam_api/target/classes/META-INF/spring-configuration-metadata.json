@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "name": "file",
+      "type": "esprit.tn.theteam_api.proprety.FileStorageProperties",
+      "sourceType": "esprit.tn.theteam_api.proprety.FileStorageProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "file.upload-dir",
+      "type": "java.lang.String",
+      "sourceType": "esprit.tn.theteam_api.proprety.FileStorageProperties"
+    },
+    {
+      "name": "spring.social.facebook.appId",
+      "type": "java.lang.String",
+      "description": "Description for spring.social.facebook.appId."
+    },
+    {
+      "name": "spring.social.facebook.appSecret",
+      "type": "java.lang.String",
+      "description": "Description for spring.social.facebook.appSecret."
+    }
+  ],
+  "hints": []
+}
