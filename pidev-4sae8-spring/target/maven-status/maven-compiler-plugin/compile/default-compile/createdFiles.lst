@@ -1,0 +1,15 @@
+com\women\spring\service\EventsServiceInt.class
+com\women\spring\service\UserService.class
+com\women\spring\model\Events.class
+com\women\spring\service\EventsService.class
+com\women\spring\repository\CharityRepository.class
+com\women\spring\service\CharityServiceInt.class
+com\women\spring\model\Jackpot.class
+com\women\spring\service\CharityService.class
+com\women\spring\model\Etat.class
+com\women\spring\model\Type.class
+com\women\spring\service\JackpotServiceInt.class
+com\women\spring\controller\EventsController.class
+com\women\spring\repository\EventsRepository.class
+com\women\spring\model\Charity.class
+com\women\spring\model\Role.class
