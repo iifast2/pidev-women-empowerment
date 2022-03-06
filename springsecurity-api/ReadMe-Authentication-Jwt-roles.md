@@ -10,8 +10,8 @@
 
 ## Generate Bearer jwt Token - POST :
 (will displat your JWT bearer token so you can access everything later on ):
-```
 
+```
 http://localhost:8080/token
 ```
 ```
