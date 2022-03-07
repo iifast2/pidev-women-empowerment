@@ -15,12 +15,12 @@ import java.util.List;
 public class PublicityController implements ICrudService<Publicity> {
     @Autowired
     PublicityService publicityService;
-    @Autowired
-    Facebook facebook ;
+//    @Autowired
+//    Facebook facebook ;
     @PostMapping("/pub")
             public Publicity save (@RequestBody Publicity publicity ){
         //facebook.feedOperations().updateStatus(publicity.toString());
-        facebook.feedOperations().updateStatus("I'm trying out Spring Social!");
+   //     facebook.feedOperations().updateStatus("I'm trying out Spring Social!");
         // User user = userService.findByNom(SecurityContextHolder.getContext().getAuthentication().getName());
        // publicity.setUser(user);
         return publicityService.save(publicity);

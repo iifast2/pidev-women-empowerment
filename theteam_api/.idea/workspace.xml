@@ -1,8 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c415d0b7-ea58-428e-b9ab-9c6a75105a41" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="c415d0b7-ea58-428e-b9ab-9c6a75105a41" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/pidev-women-empowerment.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2857cbf4-0d54-4717-8d0b-d9fef32f9081.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/2857cbf4-0d54-4717-8d0b-d9fef32f9081.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/esprit/tn/theteam_api/config/SocialConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/esprit/tn/theteam_api/config/SocialConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/esprit/tn/theteam_api/controller/FacebookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/esprit/tn/theteam_api/controller/FacebookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/esprit/tn/theteam_api/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/esprit/tn/theteam_api/controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/esprit/tn/theteam_api/controller/PublicityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/esprit/tn/theteam_api/controller/PublicityController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/esprit/tn/theteam_api/service/FileStorageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/esprit/tn/theteam_api/service/FileStorageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/theteam_api.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/esprit/tn/theteam_api/config/SocialConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/esprit/tn/theteam_api/controller/FacebookController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/esprit/tn/theteam_api/controller/MainController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/esprit/tn/theteam_api/service/FileStorageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/esprit/tn/theteam_api/service/FileStorageService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/theteam_api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/theteam_api.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,10 +77,36 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/esprit/tn/theteam_api/model/Publication.java" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="25HSZpDJU1EXYTJ0waHNaEkscLU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -66,6 +118,9 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/esprit/tn/theteam_api" />
@@ -79,21 +134,27 @@
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="spring.boot" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\wafa\Desktop\theteam_api\src\main\java\esprit\tn\theteam_api" />
+      <recent name="C:\Users\wafa\Desktop\theteam_api\src\main\java\esprit\tn\theteam_api\controller" />
+      <recent name="C:\Users\wafa\Desktop\theteam_api\src\main\java\esprit\tn\theteam_api\config" />
+      <recent name="C:\Users\wafa\Desktop\theteam_api\src\main\java\esprit\tn\theteam_api\entity" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\wafa\Documents\GitHub\pidev-women-empowerment\theteam_api\upload" />
+      <recent name="C:\Users\wafa\Documents\GitHub\pidev-women-empowerment\theteam_api" />
+      <recent name="C:\Users\wafa\Documents\GitHub\pidev-women-empowerment\theteam_api\.mvn" />
+      <recent name="C:\Users\wafa\Documents\GitHub\pidev-women-empowerment\theteam_api\src\upload" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="esprit.tn.theteam_api.service" />
       <recent name="esprit.tn.theteam_api.controller" />
       <recent name="esprit.tn.theteam_api.proprety" />
       <recent name="esprit.tn.theteam_api.payload" />
       <recent name="esprit.tn.theteam_api.repository" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\wafa\Desktop\theteam_api\src\main\java\esprit\tn\theteam_api" />
-      <recent name="C:\Users\wafa\Desktop\theteam_api\src\main\java\esprit\tn\theteam_api\controller" />
-      <recent name="C:\Users\wafa\Desktop\theteam_api\src\main\java\esprit\tn\theteam_api\config" />
-      <recent name="C:\Users\wafa\Desktop\theteam_api\src\main\java\esprit\tn\theteam_api\entity" />
     </key>
   </component>
   <component name="RestServicesNavigator">
@@ -109,18 +170,6 @@
       </expand>
       <select />
     </treeState>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Spring Boot.TheteamApiApplication">
     <configuration name="C:/Users/wafa/Desktop/theteam_api/src/build.gradle [wrapper]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -139,7 +188,9 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
     <configuration name="TheteamApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -165,6 +216,7 @@
       </serviceView>
     </option>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SpringBootOptions">
     <option name="showAdditionalConfigNotification" value="false" />
   </component>
@@ -206,10 +258,29 @@
       <workItem from="1646299569829" duration="8753000" />
       <workItem from="1646529220848" duration="3329000" />
       <workItem from="1646599302712" duration="623000" />
+      <workItem from="1646600314504" duration="3103000" />
+      <workItem from="1646609627806" duration="3841000" />
+      <workItem from="1646614372905" duration="1147000" />
+      <workItem from="1646644559944" duration="433000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
