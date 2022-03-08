@@ -1,4 +1,4 @@
-# women empowerment subscriptions
+# women empowerment - Badges QrCode : 
 
 
 ## QrCode - GET :
@@ -8,11 +8,33 @@
 http://localhost:8080/genrateAndDownloadQRCode/SILVER_IMAGE_PATH/350/350
 ```
 
+```
+http://localhost:8080/genrateAndDownloadQRCode/GOLD_IMAGE_PATH/350/350
+```
 
+```
+http://localhost:8080/genrateAndDownloadQRCode/BRONZE_IMAGE_PATH/350/350
+```
+
+Badges : 
+![gold](https://i.imgur.com/XtkkmCb.png)
+![silver](https://i.imgur.com/7gPz14Y.png)
+![bronze](https://i.imgur.com/FmSQbn0.png)
+ 
+
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 <br/>
 
 ________
 
+# Gest. Subscription : 
 <br/>
 
 

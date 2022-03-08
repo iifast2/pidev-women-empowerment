@@ -6,11 +6,16 @@
 
 
 # POSTMAN : 
+<br/>
+<br/>
+<br/>
 
+📧 ✔️Will send an email each time the userSeeder creates the admins & mangers accounts
+<br/>
+<br/>
 
 ## Generate Bearer jwt Token - POST :
 (will displat your JWT bearer token so you can access everything later on ):
-
 ```
 http://localhost:8080/token
 ```
@@ -280,12 +285,7 @@ http://localhost:8080/genrateAndDownloadQRCode/SILVER_IMAGE_PATH/350/350
 
 <br/><br/><br/><br/><br/><br/><br/>
 _____
-I changed these names to : 
-```
-wcms --> piteam
-import com.wecode  -->   import com.pidevteam
 
-```
 
 
 
