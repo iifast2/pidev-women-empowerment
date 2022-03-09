@@ -1,3 +1,4 @@
+
 package com.pidevteam.config.seeder;
 
 //import com.pidevteam.entity.Mail;
@@ -18,35 +19,36 @@ public class UsersSeeder {
     private UserService userService;
 
     public void seed(){
-                if(userService.findAll().isEmpty()){
+        if(userService.findAll().isEmpty()){
             ArrayList<RoleEnum> rolesAdmin = new ArrayList<RoleEnum>();
             rolesAdmin.add(RoleEnum.ADMIN);
-         // ;
+            // ;
 
-    ArrayList<RoleEnum> rolesM= new ArrayList<RoleEnum>();
-    rolesM.add(RoleEnum.MANAGER);
-
-
-
-UserDto user2 = new UserDto(null,"admin" ,"admin"  ,
-    "1997/6/7","address" ,
-    "admin@gmail.com");
-user2.setRoles(rolesAdmin);
-userService.save(user2);
-
-        UserDto user3 = new UserDto(null,"med amine" ,"ben taieb" ,"admin1" ,
-                "admin1","1997/6/7" ,"cité olympique , Rue 123" ,
-                "anonymousmega04@gmail.com");
-        user3.setRoles(rolesAdmin);
-        userService.save(user3);
+            ArrayList<RoleEnum> rolesM= new ArrayList<RoleEnum>();
+            rolesM.add(RoleEnum.MANAGER);
 
 
-   // MANAGER
-UserDto user4 = new UserDto(null,"wafa" ,"AAA" ,"manager" ,
-        "manager","1997/6/7" ,"cité ghazela - Rue 321" ,
-        "mangerrrr123@gmail.com");
-user4.setRoles(rolesAdmin);
-userService.save(user4);
+
+            UserDto user2 = new UserDto(null,"admin" ,"admin"  ,
+                    "1997/6/7","address" ,
+                    "anonymousmega04@gmail.com");
+            user2.setPhone("+216    58344116");
+            user2.setRoles(rolesAdmin);
+            userService.save(user2);
+
+            UserDto user3 = new UserDto(null,"med amine" ,"ben taieb" ,"admin1" ,
+                    "admin1","1997/6/7" ,"cité olympique , Rue 123" ,
+                    "anonymousmega04@gmail.com");
+            user3.setRoles(rolesAdmin);
+            userService.save(user3);
+
+
+            // MANAGER
+            UserDto user4 = new UserDto(null,"wafa" ,"AAA" ,"manager" ,
+                    "manager","1997/6/7" ,"cité ghazela - Rue 321" ,
+                    "anonymousmega04@gmail.com");
+            user4.setRoles(rolesAdmin);
+            userService.save(user4);
 
 
 
@@ -80,5 +82,5 @@ userService.save(user3);
 
         }
 
-             }
+    }
 }

@@ -1,3 +1,5 @@
+//UserDto.java
+
 package com.pidevteam.entity.dto;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
@@ -13,15 +15,16 @@ public class UserDto {
     private String lastName;
     private String username;
     private String password;
-  //  private long salary;
+    //  private long salary;
     private String birthdate;
     private String address;
-  //  private Long leaveBalance;
-   // private String cin;
+    //  private Long leaveBalance;
+    // private String cin;
     private String email;
 
     private List<RoleEnum> roles;
-    private Subscription subscription ;
+    private String phone;
+    private  Subscription subscriptions ;
     public UserDto(Long id, String username, String password, String birthdate, String address,String email) {
         this.id = id;
         this.username = username;
@@ -29,14 +32,22 @@ public class UserDto {
         this.birthdate = birthdate;
         this.address = address;
         this.email = email;
+
+    }
+    public Subscription getSubscriptions() {
+        return subscriptions;
     }
 
-    public Subscription getSubscription() {
-        return subscription;
+    public void setSubscriptions(Subscription subscriptions) {
+        this.subscriptions = subscriptions;
     }
 
-    public void setSubscription(Subscription subscription) {
-        this.subscription = subscription;
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
     }
 
     public UserDto(Long id, String firstName, String lastName, String username, String password, String birthdate, String address, String email) {

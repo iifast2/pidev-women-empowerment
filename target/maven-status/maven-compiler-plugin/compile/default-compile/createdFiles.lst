@@ -1,5 +1,6 @@
 com\pidevteam\Application.class
 com\pidevteam\config\TokenProvider.class
+com\pidevteam\controller\SMSController.class
 com\pidevteam\controller\QRCodeGenerator.class
 com\pidevteam\entity\User.class
 com\pidevteam\controller\AuthenticationController.class
@@ -9,6 +10,7 @@ com\pidevteam\entity\util\Constants.class
 com\pidevteam\controller\SubscriptionController.class
 com\pidevteam\config\CORSFilter.class
 com\pidevteam\config\WebsocketConfig.class
+com\pidevteam\service\SmsService.class
 com\pidevteam\entity\util\AuthToken.class
 com\pidevteam\repository\RoleRepository.class
 com\pidevteam\service\impl\SubscriptionServiceImpl.class
@@ -22,6 +24,7 @@ com\pidevteam\entity\Niveau.class
 com\pidevteam\service\UserService.class
 com\pidevteam\config\seeder\SeedByOrder.class
 com\pidevteam\entity\Notification.class
+com\pidevteam\entity\util\SmsPojo.class
 com\pidevteam\controller\QRCodeController.class
 com\pidevteam\entity\Role.class
 com\pidevteam\controller\UserController.class

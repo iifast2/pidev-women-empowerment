@@ -1,3 +1,5 @@
+//UserController.java
+
 package com.pidevteam.controller;
 
 //import com.pidevteam.entity.Mail;
@@ -24,10 +26,10 @@ import java.util.List;
 public class UserController {
 
     // @Autowired
-   // private Environment env ;
+    // private Environment env ;
 
 //    @Autowired
-  //  MailService mailService;
+    //  MailService mailService;
 
     @Autowired
     private UserService userService;
@@ -36,12 +38,12 @@ public class UserController {
     private NotificationService notificationService;
 
     //@Secured({"ROLE_ADMIN", "ROLE_USER"})
-  // @PreAuthorize("hasRole('ADMIN')")
+    // @PreAuthorize("hasRole('ADMIN')")
     @RequestMapping(value="/users", method = RequestMethod.GET)
     public List<User> listUser(){
         //return userService.findAll().stream().map(user -> modelMapper.map(user,UserDto.class)).collect(Collectors.toList());
         return userService.findAll();
-   }
+    }
 
     @RequestMapping(value = "/users/{id}", method = RequestMethod.GET)
     public User getOne(@PathVariable(value = "id") Long id){
@@ -49,19 +51,10 @@ public class UserController {
         return userService.findById(id);
     }
 
-//    @PreAuthorize("hasRole('ADMIN')")
+    //    @PreAuthorize("hasRole('ADMIN')")
     @RequestMapping(value="/users", method = RequestMethod.POST)
     public User saveUser(@RequestBody UserDto user){
 
-   /*     Mail mail = new Mail();
-        mail.setMailFrom("Authdaritn@gmail.com");
-        mail.setMailTo("Authdaritn@gmail.com");
-        mail.setMailSubject("Spring Boot - Email Example");
-        mail.setMailContent("Learn How to send Email using Spring Boot!!!\n\nThanks\nmabttech.medium.com");
-
-        //BeanAdapter ctx;
-        MailService mailService = null;
-        mailService.sendEmail(mail);*/
 
 
         return userService.save(user);
@@ -100,31 +93,31 @@ public class UserController {
 
     @RequestMapping(value = "/users/{id}", method = RequestMethod.DELETE)
     public void delete(@PathVariable Long id){
-         userService.delete(id);
+        userService.delete(id);
     }
 
     @RequestMapping(value="/users", method = RequestMethod.PUT)
     public User modifyUser(@RequestBody UserDto user){
-       return userService.save(user);
+        return userService.save(user);
 //       return modelMapper.map(userService.save(user),UserDto.class);
     }
 
     @RequestMapping(value = "/notifs", method = RequestMethod.GET)
     public List<Notification> getUserNotifications(){
-       return notificationService.findAllByUser(SecurityContextHolder.getContext().getAuthentication().getName());
+        return notificationService.findAllByUser(SecurityContextHolder.getContext().getAuthentication().getName());
     }
 
     @RequestMapping(value = "/notifs/viewed")
     public List<Notification> markAsViewed(){
-       User user = userService.findOne(SecurityContextHolder.getContext().getAuthentication().getName());
-       List<Notification> notifications = user.getNotifications();
-       List<Notification> notificationsnew = new ArrayList<>();
+        User user = userService.findOne(SecurityContextHolder.getContext().getAuthentication().getName());
+        List<Notification> notifications = user.getNotifications();
+        List<Notification> notificationsnew = new ArrayList<>();
 
-       notifications.forEach(n ->{
-           n.setViewed(true);
-           notificationsnew.add(n) ;
-       } );
-       return notificationService.saveAll(notificationsnew);
+        notifications.forEach(n ->{
+            n.setViewed(true);
+            notificationsnew.add(n) ;
+        } );
+        return notificationService.saveAll(notificationsnew);
     }
 
     //simpMessagingTemplate.convertAndSend("/scrumboard/"+task.getIndicator().getProjectClient().getId(), projectWSPayload);
