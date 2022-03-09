@@ -49,8 +49,16 @@ public class User {
 
     @ManyToOne
     private Subscription subscriptions;
+    @Enumerated(EnumType.STRING)
+    private  Etat etat ;
 
+    public Etat getEtat() {
+        return etat;
+    }
 
+    public void setEtat(Etat etat) {
+        this.etat = etat;
+    }
 
     @ManyToMany(fetch = FetchType.EAGER, cascade = CascadeType.MERGE)
     @JoinTable(name = "USER_ROLES", joinColumns = {
@@ -65,6 +73,34 @@ public class User {
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
     @JsonIgnore
     List<Publication> publications ;
+
+    @OneToMany(mappedBy="user")
+    @JsonIgnore
+    List<Certificat> certificats;
+
+
+    @ManyToMany ()
+    //hethi  zdtha ena
+    @JoinTable(name = "USER_formation", joinColumns = {
+            @JoinColumn(name = "USER_ID") }, inverseJoinColumns = {
+            @JoinColumn(name = "Formation_ID") })
+    List<Formation> formations;
+
+    public List<Certificat> getCertificats() {
+        return certificats;
+    }
+
+    public void setCertificats(List<Certificat> certificats) {
+        this.certificats = certificats;
+    }
+
+    public List<Formation> getFormations() {
+        return formations;
+    }
+
+    public void setFormations(List<Formation> formations) {
+        this.formations = formations;
+    }
 
     public List<Publicity> getPublicities() {
         return publicities;

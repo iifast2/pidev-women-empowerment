@@ -15,4 +15,7 @@ public interface UserService {
     User update(User user);
     User findById(Long id);
     public boolean changePassword(ChangePasswordVM vm , String username);
+    public User virer (Long id) ;
+    public User avertire (Long id);
+    public User sactionner (Long id) ; 
 }

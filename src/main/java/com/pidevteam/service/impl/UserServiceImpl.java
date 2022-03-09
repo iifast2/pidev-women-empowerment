@@ -1,5 +1,6 @@
 package com.pidevteam.service.impl;
 
+import com.pidevteam.entity.Etat;
 import com.pidevteam.entity.RoleEnum;
 import com.pidevteam.entity.Subscription;
 import com.pidevteam.entity.util.ChangePasswordVM;
@@ -157,5 +158,26 @@ public class UserServiceImpl implements UserDetailsService, UserService {
 		}
 		else return false;
 
+	}
+
+
+	public User virer (Long id) {
+		User user =  userRepository.findById(id).get();
+		user.setEtat(Etat.viré);
+
+		return userRepository.save(user);
+	}
+	public User avertire (Long id) {
+		User user =  userRepository.findById(id).get();
+		user.setEtat(Etat.Averti);
+
+		return userRepository.save(user);
+
+	}
+	public User sactionner (Long id) {
+		User user =  userRepository.findById(id).get();
+		user.setEtat(Etat.Sactionné);
+
+		return userRepository.save(user);
 	}
 }

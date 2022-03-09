@@ -137,4 +137,17 @@ public class UserController {
     }
 
 
+    @PutMapping("/virer/{id}")
+    public User virerLearner(@PathVariable("id") Long id ) {
+        return userService.virer(id);
+    }
+    @PutMapping("/sactionner/{id}")
+    public User sactionnerLearner (@PathVariable("id")Long id ) {
+        return userService.sactionner(id);
+    }
+    @PutMapping("/avertir/{id}")
+    public User avertirLearner (@PathVariable("id") Long id ) {
+        return userService.avertire(id);
+    }
+
 }
