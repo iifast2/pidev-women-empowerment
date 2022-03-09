@@ -90,6 +90,21 @@ public class User {
 private List<Appointment> appointments ;
     @OneToMany(mappedBy = "user")
     private List<Reclamation> reclamations ;
+///hethii taysir
+@ManyToMany(cascade = CascadeType.ALL)
+@JsonIgnore
+@JoinTable(name = "USER_EVENT", joinColumns = {
+        @JoinColumn(name = "USER_ID") }, inverseJoinColumns = {
+        @JoinColumn(name = "EVENT_ID") })
+List<Events> events ;
+
+    public List<Events> getEvents() {
+        return events;
+    }
+
+    public void setEvents(List<Events> events) {
+        this.events = events;
+    }
 
     public List<Appointment> getAppointments() {
         return appointments;

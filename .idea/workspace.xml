@@ -73,16 +73,19 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/templates" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\wafa\Desktop\pidev-women-empowerment\src\main\resources" />
+      <recent name="C:\Users\wafa\Desktop\pidev-women-empowerment\src\main\resources\templates" />
       <recent name="C:\Users\wafa\Desktop\pidev-women-empowerment\src\main\java\com\pidevteam\controller" />
       <recent name="C:\Users\wafa\Desktop\pidev-women-empowerment\src\main\java\com\pidevteam\service" />
       <recent name="C:\Users\wafa\Desktop\pidev-women-empowerment\src\main\java\com\pidevteam\repository" />
@@ -92,10 +95,11 @@
       <recent name="C:\Users\wafa\Desktop\pidev-women-empowerment\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.pidevteam.controller" />
+      <recent name="com.pidevteam.entity" />
       <recent name="com.pidevteam.config" />
       <recent name="com.pidevteam.service" />
       <recent name="com.pidevteam.payload" />
-      <recent name="com.pidevteam.controller" />
     </key>
   </component>
   <component name="RunManager">
@@ -153,7 +157,7 @@
       <workItem from="1646734014954" duration="14823000" />
       <workItem from="1646782279374" duration="357000" />
       <workItem from="1646782667660" duration="19599000" />
-      <workItem from="1646818865460" duration="8531000" />
+      <workItem from="1646818865460" duration="12641000" />
     </task>
     <servers />
   </component>

@@ -17,7 +17,7 @@ static List<String> words = new ArrayList<String>();
 
     static int largestWordLength = 0;
     public static void loadConfigs() {
-        try {
+        try {			//change this path according to your pc project file's path - so you don't get errors
             File f = new File("C:/Users/wafa/Desktop/theteam_api/src/main/resources/Dict.txt");
             BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream(f)));
             String line = "";

@@ -22,7 +22,8 @@ public class Formation {
     String nom;
     Integer nombreParticipant;
 
-
+    @Enumerated(EnumType.STRING)
+    goals_F goals_f;
     @OneToMany(mappedBy = "formation",cascade = CascadeType.REMOVE)
     List<File > files;
 
