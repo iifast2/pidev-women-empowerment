@@ -44,6 +44,7 @@ public class User {
 
 
     @OneToMany(mappedBy = "user")
+    @JsonIgnoreProperties("user")
     private List<Notification> notifications;
 
     @ManyToOne
@@ -58,6 +59,28 @@ public class User {
     @JsonIgnoreProperties("users")
     private List<Role> roles = new ArrayList<>();
     private  String phone ;
+    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
+    @JsonIgnore
+    List<Publicity> publicities ;
+    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
+    @JsonIgnore
+    List<Publication> publications ;
+
+    public List<Publicity> getPublicities() {
+        return publicities;
+    }
+
+    public void setPublicities(List<Publicity> publicities) {
+        this.publicities = publicities;
+    }
+
+    public List<Publication> getPublications() {
+        return publications;
+    }
+
+    public void setPublications(List<Publication> publications) {
+        this.publications = publications;
+    }
 
     public Subscription getSubscriptions() {
         return subscriptions;

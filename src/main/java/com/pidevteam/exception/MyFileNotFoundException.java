@@ -1,4 +1,3 @@
-/*
 package com.pidevteam.exception;
 
 import org.springframework.http.HttpStatus;
@@ -14,4 +13,4 @@ public class MyFileNotFoundException extends RuntimeException {
         super(message, cause);
     }
 }
-*/
+

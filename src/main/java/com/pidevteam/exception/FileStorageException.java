@@ -1,4 +1,3 @@
-/*
 package com.pidevteam.exception;
 
 public class FileStorageException  extends RuntimeException {
@@ -10,4 +9,4 @@ public class FileStorageException  extends RuntimeException {
         super(message, cause);
     }
 }
-*/
+

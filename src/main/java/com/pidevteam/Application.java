@@ -1,6 +1,7 @@
 package com.pidevteam;
 
 //import com.mailjet.client.errors.MailjetException;
+import com.pidevteam.proprety.FileStorageProperties;
 import com.sun.mail.util.MailConnectException;
 import org.springframework.context.ApplicationContext;
 //import com.mailjet.client.errors.MailjetSocketTimeoutException;
@@ -26,6 +27,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.EnableAspectJAutoProxy;
 import org.springframework.mail.MailAuthenticationException;
 import org.springframework.mail.MailException;
 import org.springframework.mail.MailSendException;
@@ -34,7 +36,8 @@ import org.springframework.mail.MailSendException;
 import javax.annotation.PostConstruct;
 
 @SpringBootApplication
-//@EnableConfigurationProperties({FileStorageProperties.class})
+@EnableConfigurationProperties({FileStorageProperties.class})
+@EnableAspectJAutoProxy
 public class Application implements CommandLineRunner {
     @Autowired
     private   RoleRepository roleRepository;

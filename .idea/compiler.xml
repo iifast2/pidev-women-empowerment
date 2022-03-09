@@ -8,9 +8,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="piteam" />
-        <module name="pidev-women-empowerment" />
-        <module name="piteam" />
         <module name="springsecurity-api" />
+        <module name="pidev-women-empowerment" />
       </profile>
     </annotationProcessing>
   </component>

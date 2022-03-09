@@ -39,5 +39,18 @@ public class NotificationService {
 
         return notificationRepository.findAllByUser(userService.findOne(username));
     }
+    public void notIdUserIdentification(List<Long> lst, String link , String body, String title){
+        if (!lst.isEmpty()){
+            for (Long id: lst) {
+                Notification n = new Notification() ;
+                n.setTitle(title);
+                n.setLink(link);
+                n.setBody(body);
+                n.setUser( userService.findById(id));
+               save(n);
+
+            }
+        }
+    }
 
 }

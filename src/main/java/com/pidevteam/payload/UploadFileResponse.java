@@ -1,4 +1,4 @@
-/*
+
 package com.pidevteam.payload;
 
 public class UploadFileResponse {
@@ -46,4 +46,4 @@ public class UploadFileResponse {
         this.size = size;
     }
 }
-*/
+
