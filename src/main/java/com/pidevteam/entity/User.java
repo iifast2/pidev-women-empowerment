@@ -85,6 +85,27 @@ public class User {
             @JoinColumn(name = "USER_ID") }, inverseJoinColumns = {
             @JoinColumn(name = "Formation_ID") })
     List<Formation> formations;
+/// hethii yousser
+@OneToMany(mappedBy = "user")
+private List<Appointment> appointments ;
+    @OneToMany(mappedBy = "user")
+    private List<Reclamation> reclamations ;
+
+    public List<Appointment> getAppointments() {
+        return appointments;
+    }
+
+    public void setAppointments(List<Appointment> appointments) {
+        this.appointments = appointments;
+    }
+
+    public List<Reclamation> getReclamations() {
+        return reclamations;
+    }
+
+    public void setReclamations(List<Reclamation> reclamations) {
+        this.reclamations = reclamations;
+    }
 
     public List<Certificat> getCertificats() {
         return certificats;

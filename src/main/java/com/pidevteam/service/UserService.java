@@ -17,5 +17,5 @@ public interface UserService {
     public boolean changePassword(ChangePasswordVM vm , String username);
     public User virer (Long id) ;
     public User avertire (Long id);
-    public User sactionner (Long id) ; 
+    public User sactionner (Long id) ;
 }
